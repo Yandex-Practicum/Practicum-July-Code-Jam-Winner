@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .form__btn{
+  .form__btn {
     padding: 10px 20px;
   }
 }

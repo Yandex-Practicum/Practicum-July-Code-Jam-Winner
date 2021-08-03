@@ -14,21 +14,21 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .intro {
     min-height: 70vh;
     background-size: 600px auto;
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .intro {
     background-size: 420px auto;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .intro {
     background-size: 320px auto;
   }

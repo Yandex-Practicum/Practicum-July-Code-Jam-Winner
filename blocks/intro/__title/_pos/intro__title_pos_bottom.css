@@ -8,26 +8,21 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #fff;
-  text-shadow:
-              0 0 2px #000,
-              4px 4px 0 #0882ff;
+  text-shadow: 0 0 2px #000, 4px 4px 0 #0882ff;
   transition: all 0.3s ease-in;
 }
 
 .intro__title:hover > .intro__title_pos_bottom {
-  text-shadow:
-              0 0 2px #000,
-              4px 4px 0 #55f676;
+  text-shadow: 0 0 2px #000, 4px 4px 0 #55f676;
 }
 
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   .intro__title_pos_bottom {
     font-size: 90px;
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .intro__title_pos_bottom {
     font-size: 80px;
   }

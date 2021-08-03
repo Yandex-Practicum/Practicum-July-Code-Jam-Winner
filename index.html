@@ -1,200 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A portfolio landling page for Elise" />
+    <meta name="keywords" content="HTML, CSS, JS, Portfolio, Elise, Bouer" />
+    <meta name="author" content="Jenna, Jess, Shraddha" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/icons/favicon.ico"
+    />
+    <title>Elise Bouer</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="A portfolio landling page for Elise">
-  <meta name="keywords" content="HTML, CSS, JS, Portfolio, Elise, Bouer">
-  <meta name="author" content="Jenna, Jess, Shraddha">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon.ico">
-  <title>Elise Bouer</title>
-  <link rel="stylesheet" href="pages/index.css">
-</head>
-
-<body class="body">
-  <!-- header and main navigation -->
-  <header class="header">
-    <p class="logo">
-      <a class="logo__link" href="https://larkceresin.github.io/Practicum-July-Code-Jam/index.html">EB</a>
-    </p>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
-        <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
-        <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
-        <li class="nav__item"><a class="nav__link" href="#contact">Contact Me</a></li>
-      </ul>
-      <div class="hamburger">
-        <span class="hamburger__bar"></span>
-        <span class="hamburger__bar"></span>
-        <span class="hamburger__bar"></span>
-      </div>
-    </nav>
-  </header>
-
-  <main class="main">
-    <!-- hero section introducing Elise -->
-    <section class="intro">
-      <h1 class="intro__title">
-        <span class="intro__title_pos_top">Hi, My name is</span>
-        <span class="intro__title_pos_bottom">Elise Bouer</span>
-      </h1>
-      <p class="intro__subtitle">I am a Web Developer</p>
-    </section>
-
-    <!-- more details about Elise -->
-    <a id="about"></a>
-    <section class="about">
-      <h2 class="about__title">About Me</h2>
-      <div class="about__content">
-        <div>
-          <p class="about__text">I am proud to say that Practicum changed my life. I went from elementary school teacher to web developer. I started a very successful startup that I was able to sell to a tech giant, and have been relaxing in the Big Easy, freelancing. I aspire to be a software engineer with NASA!</p>
-          <p class="about__text">I am an active volunteer with the Google Developer’s Group (GDG) and often organize
-            tech events and meetups for developers of all skill levels. I’ve been mentoring and have taken many students under my wings. Through it all: I keep up with learning new technologies and keeping up to date with the one’s I’ve arleady learned!</p>
-          <p class="about__text">When I’m between projects, I’m constantly outside: hiking, camping, skiing. I practice Wing Chun, and play with my chickens and pet ferret.</p>
+  <body class="body">
+    <!-- header and main navigation -->
+    <header class="header">
+      <p class="logo">
+        <a class="logo__link" href="#">EB</a>
+      </p>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
         </div>
-        <img class="about__image" src="images/44.png" alt="about">
-      </div>
-    </section>
+      </nav>
+    </header>
 
-    <!-- list of technologies on which Elise has worked on -->
-    <a id="skills"></a>
-    <section class="skills">
-      <h2 class="skills__title">Technologies</h2>
-      <ul class="skills__list">
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/html.svg" alt="HTML5 icon">
-            <figcaption class="figure__caption">HTML5</figcaption>
-          </figure>
-        </li>
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/css.svg" alt="CSS3 icon">
-            <figcaption class="figure__caption">CSS3</figcaption>
-          </figure>
-        </li>
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/js.svg" alt="Javascript icon">
-            <figcaption class="figure__caption">Javascript</figcaption>
-          </figure>
-        </li>
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/figma.svg" alt="Figma icon">
-            <figcaption class="figure__caption">Figma</figcaption>
-          </figure>
-        </li>
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/git.svg" alt="Git icon">
-            <figcaption class="figure__caption">Git</figcaption>
-          </figure>
-        </li>
-        <li class="skills__list-item">
-          <figure class="figure">
-            <img class="figure__img" src="images/react.svg" alt="React icon">
-            <figcaption class="figure__caption">React</figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
+    <main class="main">
+      <!-- hero section introducing Elise -->
+      <section class="intro">
+        <h1 class="intro__title">
+          <span class="intro__title_pos_top">Hi, My name is</span>
+          <span class="intro__title_pos_bottom">Elise Bouer</span>
+        </h1>
+        <p class="intro__subtitle">I am a Web Developer</p>
+      </section>
 
-    <!-- few projects that Elise has worked on -->
-    <a id="portfolio"></a>
-    <section class="portfolio">
-      <h2 class="portfolio__title">Projects</h2>
-      <ul class="cards">
-        <li class="cards__item">
-          <div class="cards__icons">
-            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
-            <a class="cards__link" href="https://sharp-khorana-bdc36f.netlify.app/" target="_blank">
-              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
-            </a>
+      <!-- more details about Elise -->
+      <section class="about" id="about">
+        <h2 class="about__title">About Me</h2>
+        <div class="about__content">
+          <div>
+            <p class="about__text">
+              I am proud to say that Practicum changed my life. I went from
+              elementary school teacher to web developer. I started a very
+              successful startup that I was able to sell to a tech giant, and
+              have been relaxing in the Big Easy, freelancing. I aspire to be a
+              software engineer with NASA!
+            </p>
+            <p class="about__text">
+              I am an active volunteer with the Google Developer’s Group (GDG)
+              and often organize tech events and meetups for developers of all
+              skill levels. I’ve been mentoring and have taken many students
+              under my wings. Through it all: I keep up with learning new
+              technologies and keeping up to date with the one’s I’ve arleady
+              learned!
+            </p>
+            <p class="about__text">
+              When I’m between projects, I’m constantly outside: hiking,
+              camping, skiing. I practice Wing Chun, and play with my chickens
+              and pet ferret.
+            </p>
           </div>
-          <h2 class="cards__title">Guided Meditation App</h2>
-          <p class="cards__description">
-            This app we have made as our part-2 challenge. Application featuring 5 playable audio clips that walks the user through a guided meditation session. The app also has a timer feature that allows the user to set a number of minutes (being the length of their meditation session). The timer will "gong" randomly throughout the duration of the session, and will make a noise at the end of the session.
-          </p>
-          <ul class="cards__technologies-list">
-            <li class="cards__technology">React</li>
-            <li class="cards__technology">JSX</li>
-            <li class="cards__technology">CSS</li>
-          </ul>
-        </li>
-        <li class="cards__item">
-          <div class="cards__icons">
-            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
-            <a class="cards__link" href="#">
-              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
-            </a>
-          </div>
-          <h2 class="cards__title">Eco-Lifestyles App</h2>
-          <p class="cards__description">
-            Application that uses a quiz (form) to categorize the user's lifestyle. When finishing the quiz, the user will be shown information about their lifestyle category and how it can be altered to be more environmentally friendly.
-          </p>
-          <ul class="cards__technologies-list">
-            <li class="cards__technology">JS</li>
-            <li class="cards__technology">HTML</li>
-            <li class="cards__technology">CSS</li>
-          </ul>
-        </li>
-        <li class="cards__item">
-          <div class="cards__icons">
-            <img class="cards__icon" src="images/icons/folder.svg" alt="folder icon">
-            <a class="cards__link" href="#">
-              <img class="cards__icon" src="images/icons/external-link-symbol.svg" alt="external link">
-            </a>
-          </div>
-          <h2 class="cards__title">Endangered Species Informational App</h2>
-          <p class="cards__description">
-            Application that shows elements (cards, thumbnails, list items, etc) for various critically endangered species. Clicking on an animal item will take the user to a page (or can open a full-page popup) telling them detailed information about that animal, as well as links to charities or rehabilitation shelters that are aiding in keeping the species from going extinct.
-          </p>
-          <ul class="cards__technologies-list">
-            <li class="cards__technology">JS</li>
-            <li class="cards__technology">CSS</li>
-          </ul>
-        </li>
-      </ul>
-    </section>
+          <img class="about__image" src="images/44.png" alt="about" />
+        </div>
+      </section>
 
-    <!-- want to drop a message to Elise, the visitor can do it here -->
-    <a id="contact"></a>
-    <section class="contact">
-      <div class="contact__wrapper">
-        <h2 class="contact__title">Want to drop me a message?</h2>
-        <form class="form" action="" method="get">
-          <div class="form__email">
-            <span class="form__email-icon"></span>
-            <input class="form__email-input" type="email" name="email" placeholder="Enter your email" required>
-          </div>
-          <textarea class="form__textarea" name="message" placeholder="Write your message" minlength="5" required></textarea>
-          <div class="form__btns">
-            <button type="reset" class="form__btn form__btn_type_reset">Reset</button>
-            <button type="submit" class="form__btn form__btn_type_submit">Sumbit</button>
-          </div>
-      </div>
-      </form>
-    </section>
-  </main>
+      <!-- list of technologies on which Elise has worked on -->
+      <section class="skills" id="skills">
+        <h2 class="skills__title">Technologies</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img class="figure__img" src="images/html.svg" alt="HTML5 icon" />
+              <figcaption class="figure__caption">HTML5</figcaption>
+            </figure>
+          </li>
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img class="figure__img" src="images/css.svg" alt="CSS3 icon" />
+              <figcaption class="figure__caption">CSS3</figcaption>
+            </figure>
+          </li>
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img
+                class="figure__img"
+                src="images/js.svg"
+                alt="Javascript icon"
+              />
+              <figcaption class="figure__caption">Javascript</figcaption>
+            </figure>
+          </li>
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img
+                class="figure__img"
+                src="images/figma.svg"
+                alt="Figma icon"
+              />
+              <figcaption class="figure__caption">Figma</figcaption>
+            </figure>
+          </li>
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img class="figure__img" src="images/git.svg" alt="Git icon" />
+              <figcaption class="figure__caption">Git</figcaption>
+            </figure>
+          </li>
+          <li class="skills__list-item">
+            <figure class="figure">
+              <img
+                class="figure__img"
+                src="images/react.svg"
+                alt="React icon"
+              />
+              <figcaption class="figure__caption">React</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
 
-  <!-- footer section having social media links -->
-  <footer class="footer">
-    <nav class="footer__nav">
-      <ul class="footer__list">
-        <li class="nav__item"><a class="nav__link" href="https://www.linkedin.com/" target="_blank"><img class="nav__icon grow" src="./images/social icons/linkedin.png"></a></li>
-        <li class="nav__item"><a class="nav__link" href="https://github.com/" target="_blank"><img class="nav__icon grow" src="./images/social icons/github-white.png"></a></li>
-        <li class="nav__item"><a class="nav__link" href="https://facebook.com/" target="_blank"><img class="nav__icon grow" src="./images/social icons/facebook.png"></a></li>
-        <li class="nav__item"><a class="nav__link" href="https://stackoverflow.com/" target="_blank"><img class="nav__icon grow" src="./images/social icons/stack-overflow.png"></a></li>
-        <li class="nav__item"><a class="nav__link" href="https://twitter.com/" target="_blank"><img class="nav__icon grow" src="./images/social icons/twitter.png"></a></li>
-      </ul>
-    </nav>
+      <!-- few projects that Elise has worked on -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">Projects</h2>
+        <ul class="cards">
+          <li class="cards__item">
+            <div class="cards__icons">
+              <img
+                class="cards__icon"
+                src="images/icons/folder.svg"
+                alt="folder icon"
+              />
+              <a class="cards__link" href="#" target="_blank">
+                <img
+                  class="cards__icon"
+                  src="images/icons/external-link-symbol.svg"
+                  alt="external link"
+                />
+              </a>
+            </div>
+            <h2 class="cards__title">Guided Meditation App</h2>
+            <p class="cards__description">
+              This app we have made as our part-2 challenge. Application
+              featuring 5 playable audio clips that walks the user through a
+              guided meditation session. The app also has a timer feature that
+              allows the user to set a number of minutes (being the length of
+              their meditation session). The timer will "gong" randomly
+              throughout the duration of the session, and will make a noise at
+              the end of the session.
+            </p>
+            <ul class="cards__technologies-list">
+              <li class="cards__technology">React</li>
+              <li class="cards__technology">JSX</li>
+              <li class="cards__technology">CSS</li>
+            </ul>
+          </li>
+          <li class="cards__item">
+            <div class="cards__icons">
+              <img
+                class="cards__icon"
+                src="images/icons/folder.svg"
+                alt="folder icon"
+              />
+              <a class="cards__link" href="#">
+                <img
+                  class="cards__icon"
+                  src="images/icons/external-link-symbol.svg"
+                  alt="external link"
+                />
+              </a>
+            </div>
+            <h2 class="cards__title">Eco-Lifestyles App</h2>
+            <p class="cards__description">
+              Application that uses a quiz (form) to categorize the user's
+              lifestyle. When finishing the quiz, the user will be shown
+              information about their lifestyle category and how it can be
+              altered to be more environmentally friendly.
+            </p>
+            <ul class="cards__technologies-list">
+              <li class="cards__technology">JS</li>
+              <li class="cards__technology">HTML</li>
+              <li class="cards__technology">CSS</li>
+            </ul>
+          </li>
+          <li class="cards__item">
+            <div class="cards__icons">
+              <img
+                class="cards__icon"
+                src="images/icons/folder.svg"
+                alt="folder icon"
+              />
+              <a class="cards__link" href="#">
+                <img
+                  class="cards__icon"
+                  src="images/icons/external-link-symbol.svg"
+                  alt="external link"
+                />
+              </a>
+            </div>
+            <h2 class="cards__title">Endangered Species Informational App</h2>
+            <p class="cards__description">
+              Application that shows elements (cards, thumbnails, list items,
+              etc) for various critically endangered species. Clicking on an
+              animal item will take the user to a page (or can open a full-page
+              popup) telling them detailed information about that animal, as
+              well as links to charities or rehabilitation shelters that are
+              aiding in keeping the species from going extinct.
+            </p>
+            <ul class="cards__technologies-list">
+              <li class="cards__technology">JS</li>
+              <li class="cards__technology">CSS</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
-    <p class="footer__copyright">&copy; 2021. Jenna Toff - Jess Dowd - Shraddha</p>
-  </footer>
+      <!-- want to drop a message to Elise, the visitor can do it here -->
+      <section class="contact" id="contact">
+        <div class="contact__wrapper">
+          <h2 class="contact__title">Want to drop me a message?</h2>
+          <form class="form" action="" method="get">
+            <div class="form__email">
+              <span class="form__email-icon"></span>
+              <input
+                class="form__email-input"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <textarea
+              class="form__textarea"
+              name="message"
+              placeholder="Write your message"
+              minlength="5"
+              required
+            ></textarea>
+            <div class="form__btns">
+              <button type="reset" class="form__btn form__btn_type_reset">
+                Reset
+              </button>
+              <button type="submit" class="form__btn form__btn_type_submit">
+                Sumbit
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
 
-  <script type="text/javascript" src="scripts/script.js"></script>
-</body>
+    <!-- footer section having social media links -->
+    <footer class="footer">
+      <nav class="footer__nav">
+        <ul class="footer__list">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              ><img
+                class="nav__icon grow"
+                src="./images/social icons/linkedin.png"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="https://github.com/" target="_blank"
+              ><img
+                class="nav__icon grow"
+                src="./images/social icons/github-white.png"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="https://facebook.com/" target="_blank"
+              ><img
+                class="nav__icon grow"
+                src="./images/social icons/facebook.png"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="https://stackoverflow.com/"
+              target="_blank"
+              ><img
+                class="nav__icon grow"
+                src="./images/social icons/stack-overflow.png"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="https://twitter.com/" target="_blank"
+              ><img
+                class="nav__icon grow"
+                src="./images/social icons/twitter.png"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer__copyright">
+        &copy; 2021. Jenna Toff - Jess Dowd - Shraddha
+      </p>
+    </footer>
+
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
 </html>

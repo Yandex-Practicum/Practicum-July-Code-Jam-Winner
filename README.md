@@ -44,4 +44,4 @@ As Bouer is a professional developer, keeping the design simple and intuitive fo
 
 The application is created in React.js, and utilizes the [React H5 Audio Player](https://www.npmjs.com/package/react-h5-audio-player) to handle audio controls for the different pre-set meditations, and otherwise has all custom designs and components.
 
-This app also features a custom timer for self-guided meditations where a *gong* will sound randomly throughout the duration of the session, and a *bell* will sound at the beginning and end of the session.
+This app also features a custom timer for self-guided meditations where a _gong_ will sound randomly throughout the duration of the session, and a _bell_ will sound at the beginning and end of the session.

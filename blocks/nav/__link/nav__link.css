@@ -1,7 +1,7 @@
 .nav__link {
   margin: 0;
   padding: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 1;
   font-weight: 400;
@@ -13,7 +13,7 @@
 
 .nav__link:hover {
   color: #fff;
-  background-color: #0882FF;
+  background-color: #0882ff;
 }
 
 @media screen and (max-width: 850px) {
